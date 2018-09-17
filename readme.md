@@ -5,7 +5,7 @@
 docker file:
 
 
-```
+```dockerfile
 FROM microsoft/dotnet:2.1.4-aspnetcore-runtime-bionic AS base
 WORKDIR /app
 EXPOSE 80
